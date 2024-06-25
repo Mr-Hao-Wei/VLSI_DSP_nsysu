@@ -9,7 +9,7 @@
 
 module  Median_blur_19_pip_3lv(
     input 	clk,
-	input 	reset,
+    input 	reset,
     input [7:0] px_1, px_2, px_3, px_4, px_5, px_6, px_7, px_8, px_9,
     output reg [7:0] out
 	);

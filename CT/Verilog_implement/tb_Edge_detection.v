@@ -5,7 +5,7 @@
 //		Layer2: Sobel filter (3x3) & Binarization
 //		Pixel register: the buffer register of layer input
 //		PAT_MEM(tb): the memory of the original picture
-//      L1_MEM(tb): the memory of Layer1 output
+//		L1_MEM(tb): the memory of Layer1 output
 //		L2_MEM(tb): the memory of Layer2 output
 // Picture size: 64x64 (pixels)
 // Convolution stride: 1

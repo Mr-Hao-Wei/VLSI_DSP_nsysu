@@ -6,7 +6,7 @@
 //		Layer2: Sobel filter (3x3) & Binarization
 //		Pixel register: the buffer register of layer input
 //		PAT_MEM(tb): the memory of the original picture
-//      L1_MEM(tb): the memory of Layer1 output
+//		L1_MEM(tb): the memory of Layer1 output
 //		L2_MEM(tb): the memory of Layer2 output
 // Picture size: 64x64 (pixels)
 // Convolution stride: 1
@@ -51,9 +51,9 @@ module  Edge_detection(
 /////////////////////////////////////
 //FSM_State
 parameter State_Initial = 2'd0,
-		  State_L1 = 2'd1,
-		  State_L2 = 2'd2,
-		  State_Complete = 2'd3;
+          State_L1 = 2'd1,
+          State_L2 = 2'd2,
+          State_Complete = 2'd3;
 
 
 /////////////////////////////////////
