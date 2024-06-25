@@ -1,6 +1,6 @@
 Edge_detection_ori.v 為原版電路
 
-Edge_detection.v 為加入technique的電路
+Edge_detection.v 為加入technique的電路 
 
 dat_GAU 為Layer1用高斯濾波的data
 
