@@ -237,7 +237,7 @@ assign Med_in_9 = (switch == 1'b0)? Ed_reg_9:8'd0;
 // Gaussian blur with 3-level pipline
 Gaussian_blur_pip_3lv u0(
     .clk(clk),
-	.reset(reset),
+    .reset(reset),
     .px_1(Gau_in_1), .px_2(Gau_in_2), .px_3(Gau_in_3), .px_4(Gau_in_4), .px_5(Gau_in_5), .px_6(Gau_in_6), .px_7(Gau_in_7), .px_8(Gau_in_8), .px_9(Gau_in_9),
     .out(Gau_out)
 	);
@@ -245,7 +245,7 @@ Gaussian_blur_pip_3lv u0(
 // Median blur with 3-level pipline & 19 PEs
 Median_blur_19_pip_3lv u1(
     .clk(clk),
-	.reset(reset),
+    .reset(reset),
     .px_1(Med_in_1), .px_2(Med_in_2), .px_3(Med_in_3), .px_4(Med_in_4), .px_5(Med_in_5), .px_6(Med_in_6), .px_7(Med_in_7), .px_8(Med_in_8), .px_9(Med_in_9),
     .out(Med_out)
 	);
