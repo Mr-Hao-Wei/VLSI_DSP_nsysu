@@ -40,7 +40,7 @@ Team Project內容:
 
     3.Engine Show (ES):                  
 
-      Requirements:設計一9位元複數輸入的11-point FFT並加入兩種課程內學到的技術，最後完成功能驗證和新舊電路之分析
+      Requirements:設計一9位元複數輸入的11-point FFT並加入2種課程內學到的技術，最後完成功能驗證和新舊電路之分析
 
       Oral presentation time:15分鐘
 
@@ -50,16 +50,30 @@ Team Project內容:
 
                      參考文獻:I. W. Selesnick and C. S. Burrus, “Automatic generation of prime length FFT programs,” IEEE Transactions on Signal Processing, vol. 44, no. 1, pp. 14-24, Jan. 1996.
 
-                     加入技術: pipeline + parallel
+                     加入技術: Pipeline + Parallel
 
     4.Circuit Talk (CT):
 
-      Requirements:設計一9位元複數輸入的11-point FFT並加入兩種課程內學到的技術，最後完成功能驗證和新舊電路之分析
+      Requirements:實作任一種類的DSP circuit engine並加入4種以上課程內學到的技術並對其進行效能比較和分析
 
+      Oral presentation time:15分鐘
 
+      Project實作內容:
 
-
-
+                     DSP circuit engine:圖像邊緣檢測電路
     
+                     功能:將灰階圖片先進行模糊濾波(Gaussian filter or Median filter)，接著再做邊緣偵測(Sobel filter)，最後二值化輸出
 
+                     使用技術:
+
+                             1. Systolic array: Median filter
+
+                             2. Pipeline: Gaussian filter + Median filter
+
+                             3. Folding: Sobel filter
+
+                             4. Retiming: Sobel filter
+
+                             5. Scheduling (Life Time Analysis): 僅作理論分析，並未實現
+                    
 
