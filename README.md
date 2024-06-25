@@ -54,7 +54,7 @@ Team Project內容:
 
     4.Circuit Talk (CT):
 
-      Requirements:實作任一種類的DSP circuit engine並加入4種以上課程內學到的技術並對其進行效能比較和分析
+      Requirements:實作任一種類的DSP circuit engine，需加入4種以上課程內學到的技術並對其進行效能比較和分析
 
       Oral presentation time:15分鐘
 
